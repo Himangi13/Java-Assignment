@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 150px;
+    margin-right: 10px;
+}
+.form-group input,
+.form-group select {
+    flex: 1;
+    padding: 8px;
+}
+.form-group button {
+    padding: 8px 16px;
+    background-color: rgb(84, 112, 226);
+    border-radius: 5px;
+    border-color:rgb(84, 112, 226) ;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 160px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: white;
+}
